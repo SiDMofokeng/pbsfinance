@@ -1125,7 +1125,7 @@ h6 {
   appearance: none;
   border: none;
   outline: none !important;
-  background-color: var(--thm-base);
+  background-color: #b4e280;
   color: #fff;
   text-align: center;
   font-size: 16px;
@@ -1135,7 +1135,7 @@ h6 {
   padding: 15px 30px;
   -webkit-transition: 500ms;
   transition: 500ms;
-  background-color: var(--thm-base);
+  background-color: #b4e280;
   color: #fff;
 }
 
@@ -1186,7 +1186,7 @@ h6 {
   content: '';
   width: 43px;
   height: 3px;
-  background-color: var(--thm-base);
+  background-color: #b4e280;
   border-radius: 4px;
   margin-left: 10px;
 }
@@ -6733,7 +6733,7 @@ h6 {
   margin: 0;
   font-size: 30px;
   color: #fff;
-  background-color: var(--thm-primary);
+  background-color: #3c4a53;
   font-weight: 700;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
@@ -8389,7 +8389,7 @@ h6 {
 .single-loan-slider .ui-slider .ui-slider-handle {
   width: 20px;
   height: 20px;
-  border: 3px solid var(--thm-base);
+  border: 3px solid #b4e280;
   background: #fff;
   border-radius: 50%;
   outline: none !important;
@@ -8444,7 +8444,7 @@ h6 {
   -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
   color: #fff;
-  background-color: var(--thm-primary);
+  background-color: #3c4a53;
   border-radius: 4px;
   font-size: 18px;
   padding: 50px 40px;
@@ -8802,7 +8802,7 @@ h6 {
 
 @media (min-width: 1200px) {
   .site-footer-two__main {
-    padding-top: 360px;
+    padding-top: 260px;
   }
 }
 
@@ -11538,7 +11538,7 @@ h6 {
   right: -1px;
   bottom: -1px;
   border-radius: 20px;
-  background: linear-gradient(143.01deg, #004AA1 11.97%, #008FD5 93.37%);
+  background: linear-gradient(143.01deg, #3c4a54 11.97%, #b4e380 93.37%);
   border-radius: 20px;
   opacity: 0;
   visibility: hidden;
