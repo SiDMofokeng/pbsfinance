@@ -10574,14 +10574,14 @@ h6 {
 
 @media (min-width: 992px) {
   .loan-calculator-two {
-    padding-top: 120px;
+    padding-top: 20px;
     padding-bottom: 120px;
   }
 }
 
 @media (min-width: 1200px) {
   .loan-calculator-two {
-    padding-top: 150px;
+    padding-top: 50px;
     padding-bottom: 150px;
     margin-bottom: 150px;
   }
@@ -16186,4 +16186,12 @@ Cta Two
 
 .form-group button {
   float: right;
+}
+
+h1.main.Title {
+  padding: 50px 0px;
+}
+
+.main-header-two__info__inner {
+  padding: 15px 0px;
 }
