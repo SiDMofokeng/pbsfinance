@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>PBS Fincance Application</title>
+	<title>PBS Fincance Application - Declarations</title>
 	<!-- favicons Icons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
@@ -43,167 +43,193 @@
 
 			</div>
 
-			<nav class="main-header-two__menu main-menu">
+			<div class="main-header-two__info">
 				<div class="container">
-					<ul class="main-menu__list">
-						<li class="dropdown"><a href="index.html">Declarations</a></li>
-						<li><a href="user-registration.html">User Registrations</a></li>
-						<li><a href="income.html">Income</a></li>
-						<li><a href="expenses.html">Expenses</a></li>
-						<li><a href="banking.html">Banking</a></li>
-						<li><a href="#">Finalize Application</a></li>
-					</ul>
+					<div class="main-header-two__info__inner">
+						
+						<div class="logo-box">
+							<a href="index.html" aria-label="logo image"><img src="assets/images/logo-dark.png"
+									width="155" alt=""></a>
+							<span class="fa fa-bars mobile-nav__toggler"></span>
+						</div><!-- /.logo-box -->
 
-					
-				</div>
-			</nav>
+						<nav class="main-header-two__menu main-menu">
+							<div class="container">
+								<ul class="main-menu__list">
+									<li class="dropdown"><a href="index.html">Declarations</a></li>
+									<li><a href="user-registration.html">User Registrations</a></li>
+									<li><a href="income.html">Income</a></li>
+									<li><a href="expenses.html">Expenses</a></li>
+									<li><a href="banking.html">Banking</a></li>
+									<li><a href="#">Finalize Application</a></li>
+								</ul>
+			
+							</div>
+						</nav>
+
+					</div><!-- /.main-header-two__info__inner -->
+				</div><!-- /.container -->
+			</div><!-- /.main-header-two__info -->
+
 		</div>
 
 		<div class="stricky-header stricked-menu main-header-two__menu main-menu">
 			<div class="sticky-header__content"></div><!-- /.sticky-header__content -->
 		</div><!-- /.stricky-header -->
 
-		<section class="contact-one">
-            <div class="container">
-                <div class="row">
+		<section class="loan-calculator-two">
+			<div class="container">
+				
+				<h1 class="main Title">User Registration</h1>
 
-                    <div class="col-lg-12">
-                        <form action="contact.php" method="post" class="contact-one__form">
-                            <div class="row low-gutters">
-                                
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="cars">Name: </label>
-                                        <input type="text" placeholder="Your Name" class="form-control contact-one__form-input" name="name" required>
-                                    </div>
-                                </div>
+				<div class="loan-calculator-two__shape-1 float-bob-y"></div><!-- /.loan-calculator-two__shape-1 -->
+				<div class="loan-calculator-two__shape-2 float-bob-x"></div><!-- /.loan-calculator-two__shape-2 -->
+				<div class="loan-calculator-two__inner wow fadeInUp" data-wow-duration="1500ms">
+					
 
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="cars">Surname: </label>
-                                        <input type="text" placeholder="Your Surname" class="form-control contact-one__form-input" name="surname" required>
-                                    </div>
-                                </div>
+                    <div class="row">
 
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="cars">Employment Status: </label>
-                                        <select id="cars" name="cars">
-                                            <option value="full-time-employment">Full Time Employment</option>
-                                            <option value="self-employed">Self-Employed</option>
-                                            <option value="unemployed">Unemployed</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <br/><br/>
-
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="cars">ID Number: </label>
-                                        <input type="number" placeholder="ID Number" class="form-control contact-one__form-input" name="ID Number">
-                                    </div>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="cars">Password: </label>
-                                        <input type="text" placeholder="Password" class="form-control contact-one__form-input" name="Password">
-                                    </div>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="cars">Email: </label>
-                                        <input type="email" placeholder="email" class="form-control contact-one__form-input" name="email">
-                                    </div>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="cars">Cell Number: </label>
-                                        <input type="number" placeholder="Cell Number" class="form-control contact-one__form-input" name="Cell Number">
-                                    </div>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="cars"><strong>Address Details:</strong> </label>
-                                    </div>
-                                </div>
-
-                                <br/><br/>
-
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="cars">Unit / House No: </label>
-                                        <input type="text" placeholder="Your Name" class="form-control contact-one__form-input" name="name" required>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="cars">Suburb: </label>
-                                        <input type="text" placeholder="Suburb" class="form-control contact-one__form-input" name="Suburb" required>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="cars">Complex (If applicable): </label>
-                                        <input type="text" placeholder="Complex (If applicable)" class="form-control contact-one__form-input" name="Complex (If applicable)" required>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="cars">City / Town: </label>
-                                        <input type="text" placeholder="City / Town" class="form-control contact-one__form-input" name="City / Town" required>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="cars">Street Name: </label>
-                                        <input type="text" placeholder="Street Name" class="form-control contact-one__form-input" name="Street Name" required>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="cars">Province: </label>
-                                        <input type="text" placeholder="Province" class="form-control contact-one__form-input" name="Province" required>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="cars">Postal Code: </label>
-                                        <input type="text" placeholder="Postal Code" class="form-control contact-one__form-input" name="Postal Code" required>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                                        <label for="vehicle1"> I agree to the Terms and Conditions set Herewith</label><br>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <button class="thm-btn" type="submit">Next, Income Details</button>
-                                    </div>
+                        <div class="col-lg-12">
+                            <form action="contact.php" method="post" class="contact-one__form">
+                                <div class="row low-gutters">
                                     
-                                </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="cars">Name: </label>
+                                            <input type="text" placeholder="Your Name" class="form-control contact-one__form-input" name="name" required>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="cars">Surname: </label>
+                                            <input type="text" placeholder="Your Surname" class="form-control contact-one__form-input" name="surname" required>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="cars">Employment Status: </label>
+                                            <select id="cars" name="cars">
+                                                <option value="full-time-employment">Full Time Employment</option>
+                                                <option value="self-employed">Self-Employed</option>
+                                                <option value="unemployed">Unemployed</option>
+                                            </select>
+                                        </div>
+                                    </div>
+    
+                                    <br/><br/>
+    
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="cars">ID Number: </label>
+                                            <input type="number" placeholder="ID Number" class="form-control contact-one__form-input" name="ID Number">
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="cars">Password: </label>
+                                            <input type="text" placeholder="Password" class="form-control contact-one__form-input" name="Password">
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="cars">Email: </label>
+                                            <input type="email" placeholder="email" class="form-control contact-one__form-input" name="email">
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="cars">Cell Number: </label>
+                                            <input type="number" placeholder="Cell Number" class="form-control contact-one__form-input" name="Cell Number">
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="cars"><strong>Address Details:</strong> </label>
+                                        </div>
+                                    </div>
+    
+                                    <br/><br/>
+    
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="cars">Unit / House No: </label>
+                                            <input type="text" placeholder="Your Name" class="form-control contact-one__form-input" name="name" required>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="cars">Suburb: </label>
+                                            <input type="text" placeholder="Suburb" class="form-control contact-one__form-input" name="Suburb" required>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="cars">Complex (If applicable): </label>
+                                            <input type="text" placeholder="Complex (If applicable)" class="form-control contact-one__form-input" name="Complex (If applicable)" required>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="cars">City / Town: </label>
+                                            <input type="text" placeholder="City / Town" class="form-control contact-one__form-input" name="City / Town" required>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="cars">Street Name: </label>
+                                            <input type="text" placeholder="Street Name" class="form-control contact-one__form-input" name="Street Name" required>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="cars">Province: </label>
+                                            <input type="text" placeholder="Province" class="form-control contact-one__form-input" name="Province" required>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="cars">Postal Code: </label>
+                                            <input type="text" placeholder="Postal Code" class="form-control contact-one__form-input" name="Postal Code" required>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                                            <label for="vehicle1"> I agree to the Terms and Conditions set Herewith</label><br>
+                                        </div>
+                                    </div>
+    
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <button class="thm-btn" type="submit">Next, Income Details</button>
+                                        </div>
+                                        
+                                    </div>
+    
+                                </div><!-- /.row -->
+                            </form><!-- /.contact-one__from -->
+                        </div>
+    
+                    </div><!-- /.row -->
 
-                            </div><!-- /.row -->
-                        </form><!-- /.contact-one__from -->
-                    </div>
 
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.contact-one -->
+
+				</div><!-- /.loan-calculator-two__inner -->
+			</div><!-- /.container -->
+		</section><!-- /.loan-calculator-two -->
 
 		<section class="main-slider main-slider-two">
 						<div class="swiper-container thm-swiper__slider" data-swiper-options='{
