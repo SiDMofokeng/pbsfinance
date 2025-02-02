@@ -8038,7 +8038,7 @@ h6 {
   outline: none;
   background-color: var(--thm-form-input);
   color: var(--thm-color);
-  height: 67px;
+  height: 40px;
   margin-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
@@ -8795,14 +8795,14 @@ h6 {
 
 .site-footer-two__main {
   padding-bottom: 25px;
-  padding-top: 110px;
+  padding-top: 80px;
   background-color: #3c4a53;
   position: relative;
 }
 
 @media (min-width: 1200px) {
   .site-footer-two__main {
-    padding-top: 260px;
+    padding-top: 80px;
   }
 }
 
@@ -10429,6 +10429,17 @@ h6 {
   max-width: 515px;
 }
 
+nav.main-header-two__menu.main-menu {
+  width: 75%;
+}
+
+.main-header-two__menu .main-menu__list > li > a {
+  margin-left: 0;
+  margin-right: 0;
+  border: 0;
+  float: right;
+}
+
 .trusted-company-two__list {
   margin: 0;
   display: -ms-grid;
@@ -10574,14 +10585,14 @@ h6 {
 
 @media (min-width: 992px) {
   .loan-calculator-two {
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 120px;
   }
 }
 
 @media (min-width: 1200px) {
   .loan-calculator-two {
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 150px;
     margin-bottom: 150px;
   }
@@ -11985,6 +11996,7 @@ li:nth-child(3):hover .main-header-two__info__list__icon {
   padding-bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
+  flex-direction: row-reverse;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -11992,6 +12004,21 @@ li:nth-child(3):hover .main-header-two__info__list__icon {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+
+select#cars {
+  width: 100%;
+  display: block;
+  border: solid 1px #555c63;
+  outline: none;
+  background-color: var(--thm-form-input);
+  color: var(--thm-color);
+  height: 40px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  font-size: 15px;
 }
 
 .main-header-two__menu .main-menu__list {
